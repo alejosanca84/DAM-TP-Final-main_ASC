@@ -58,13 +58,3 @@ Bajo la lista tenemos el botón volver a la página del sensor correspondiente (
 
 ![Figura 3](/imagenes/Figura3.png)
 
-### Servicios y endpoints 
-Se creó un servicio (dispositivo.service.ts) que centraliza todas las peticiones hacia la base de datos. 
-
-| **Método** | **Endpoint**                          | **Descripción**                                                                                  |
-|------------|---------------------------------------|--------------------------------------------------------------------------------------------------|
-| `GET`      | `/dispositivo`                       | Obtiene un listado de todos los dispositivos disponibles en la base de datos.                   |
-| `GET`      | `/dispositivo/:id`                   | Recupera los datos de un dispositivo específico junto con su última medición registrada.        |
-| `GET`      | `/dispositivo/:id/mediciones`        | Obtiene el historial completo de mediciones asociadas a un dispositivo, ordenadas por fecha.    |
-| `POST`     | `/dispositivo/:id/valvula`           | Registra un nuevo estado para la electroválvula y una medición de humedad asociada al dispositivo. |
-| `GET`      | `/dispositivo/:id/valvula/:id`       | Consulta el estado más reciente de apertura/cierre de la electroválvula asociada al dispositivo. |
