@@ -12,7 +12,9 @@ Se requiere instalar `Docker` y `Docker Compose`.
 En [este artículo](https://www.gotoiot.com/pages/articles/docker_installation_linux/) están los detalles para instalar Docker y Docker Compose en una máquina Linux.
 
 Documentación adicional para instalación en otras plataformas o sistemas operativos:
+
 -*[Docker](https://docs.docker.com/get-docker/)
+
 -*[Docker Compose](https://docs.docker.com/compose/install/).
 
 ### Ejecución de la aplicación
