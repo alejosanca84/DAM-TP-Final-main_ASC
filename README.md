@@ -44,11 +44,11 @@ Al dar click sobre uno de los sensores de la lista, se desplegara la web de ese 
 
 Además, la interfaz presenta tres botones principales:
 
-Control electroválvula: El botón cambia de color en función del estado  de la electroválvula.
-Si está abierta, el botón será de color rojo y mostrará el texto "Cerrar EV".  
-Si está cerrada, el botón será de color verde y mostrará el texto "Abrir EV".  
-Mediciones: Permite acceder al listado de mediciones registradas por el sensor.  
-Volver: Retorno a página principal con el listado de sensores.  
+-*Control electroválvula: El botón cambia de color en función del estado  de la electroválvula. Si está abierta, el botón será de color rojo y mostrará el texto "Cerrar EV", si está cerrada, el botón será de color verde y mostrará el texto "Abrir EV".  
+
+-*Mediciones: Permite acceder al listado de mediciones registradas por el sensor.
+
+-*Volver: Retorno a página principal con el listado de sensores.  
 (Ver Figura 2)  
 
 ![Figura 2](/imagenes/Figura2.png)
