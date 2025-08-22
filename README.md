@@ -9,7 +9,7 @@ Para esta extensión se utilizo framework ionic para realizar el frontend.
 
 Se requiere instalar `Docker` y `Docker Compose`. 
 
-En [este artículo](https://www.gotoiot.com/pages/articles/docker_installation_linux/) publicado en nuestra web están los detalles para instalar Docker y Docker Compose en una máquina Linux.
+En [este artículo](https://www.gotoiot.com/pages/articles/docker_installation_linux/) están los detalles para instalar Docker y Docker Compose en una máquina Linux.
 
 Documentación adicional para instalación en otras plataformas o sistemas operativos:
 -*[Docker](https://docs.docker.com/get-docker/)
