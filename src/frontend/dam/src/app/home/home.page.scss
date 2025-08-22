@@ -1,0 +1,52 @@
+#container {
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 30%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+  margin: 0;
+  font-weight: bold;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0;
+  font-weight: bold;
+}
+
+#container a {
+  text-decoration: none;
+  font-weight: bold;
+}
+/* Establece el fondo de la página, la barra de herramientas y la lista */
+ion-content, ion-toolbar, ion-list {
+  --background: #292727; /* Fondo gris oscuro */
+}
+
+/* Establece el color de todos los títulos de la página */
+ion-title {
+  color: royalblue;
+}
+
+/* Estilos para los elementos de la lista */
+ion-item {
+  --background: rgb(41, 40, 40);     /* Fondo gris oscuro */
+  --border-color: #7ce141;        /* Color del borde (verde) para separar los ítems */
+  --color: royalblue;             /* Color del texto del ítem */
+}
+
+/* Estilos específicos para el enlace dentro del ítem */
+ion-item a {
+  color: royalblue;
+  text-decoration: none; /* Opcional: quita el subrayado del enlace */
+  width: 100%;
+  --background: #000000; /* Fondo negro */
+}

@@ -1,0 +1,23 @@
+/* Establece el fondo de la página, la barra de herramientas y la lista */
+ion-content, ion-toolbar, ion-list {
+  --background: #000000; /* Fondo negro */
+}
+
+/* Establece el color de todos los títulos de la página */
+ion-title {
+  color: royalblue;
+}
+
+/* Estilos para los elementos de la lista */
+ion-item {
+  --background: transparent;      /* Sin fondo para que se vea el negro de la página */
+  --border-color: #4169E1;        /* Color del borde (azul rey) para separar los ítems */
+  --color: royalblue;             /* Color del texto del ítem */
+}
+
+/* Estilos específicos para el enlace dentro del ítem */
+ion-item a {
+  color: royalblue;
+  text-decoration: none; /* Opcional: quita el subrayado del enlace */
+  width: 100%;
+}

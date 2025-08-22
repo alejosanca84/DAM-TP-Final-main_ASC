@@ -1,0 +1,29 @@
+/* Establece el fondo para los elementos principales */
+ion-content, ion-toolbar {
+  --background: #292727; /* Fondo negro */
+}
+
+/* Establece el color de los títulos */
+ion-title {
+  color: royalblue;
+  font-weight: bold;
+}
+
+/* Estilos para la tarjeta */
+ion-card {
+  --background: rgb(41, 40, 40); /* Hacemos la tarjeta transparente */
+}
+
+/* Estilos para el texto dentro de la tarjeta */
+ion-card-title,
+ion-card-subtitle,
+ion-card-content {
+  color: royalblue;
+  font-weight: bold;
+}
+
+/* Estilos para el botón "Volver" */
+ion-button[fill="clear"] {
+  --color: royalblue; /* Usamos la variable --color para botones */
+  font-weight: bold;
+}

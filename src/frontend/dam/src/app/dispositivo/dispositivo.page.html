@@ -1,0 +1,39 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Dispositivo</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">dispositivo</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>{{dispositivo.nombre}}</ion-card-title>
+      <ion-card-subtitle><b>Ubicación:</b> {{dispositivo.ubicacion}}</ion-card-subtitle>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <ion-card-content>
+        <p><b>Última lectura de humedad (%):</b> {{ ultimaMedicion.humedad ? ultimaMedicion.humedad : 'No disponible' }}</p>
+        <!-- Uso del pipe custom -->
+        <p><b>Fecha:</b> {{ ultimaMedicion.fecha ? (ultimaMedicion.fecha | fechaHora:'fecha') : 'No disponible' }}</p>
+        <p><b>Hora:</b> {{ ultimaMedicion.fecha ? (ultimaMedicion.fecha | fechaHora:'hora') : 'No disponible' }}</p>
+      </ion-card-content>
+      <!-- ################### -->
+    </ion-card-content>
+      <ion-button 
+        [color]="apertura ? 'danger' : 'success'" 
+        (click)="toggleButton(dispositivo.dispositivoId)" 
+        style="--ion-color-contrast: White !important;">
+        {{ apertura ? 'Cerrar EV' : 'Abrir EV' }}
+      </ion-button>
+      <ion-button [routerLink]="['mediciones']" color="tertiary" style="--ion-color-contrast: White !important;">
+        Mediciones
+      </ion-button>
+      <ion-button fill="clear" (click)="goBack()" strong="true">Volver</ion-button>
+  </ion-card>
+</ion-content>

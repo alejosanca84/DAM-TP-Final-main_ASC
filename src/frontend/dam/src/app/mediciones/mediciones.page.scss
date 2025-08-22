@@ -1,0 +1,54 @@
+/* Establece el fondo para los elementos principales */
+ion-content, ion-toolbar {
+  --background: #292727; /* Fondo negro */
+}
+
+/* Establece el color de los títulos */
+ion-title {
+  color: royalblue;
+  font-weight: bold;
+}
+
+/* Estilos para la tarjeta */
+ion-card {
+  --background: rgb(41, 40, 40); /* Hacemos la tarjeta transparente */
+}
+
+/* Estilos para el texto dentro de la tarjeta */
+ion-card-title,
+ion-card-subtitle,
+ion-card-content {
+  color: royalblue;
+  font-weight: bold;
+}
+
+/* Estilos para el botón "Volver" */
+ion-button[fill="clear"] {
+  --color: royalblue; /* Usamos la variable --color para botones */
+  font-weight: bold;
+}
+
+/* Establece el fondo de la página, la barra de herramientas y la lista */
+ion-content, ion-toolbar, ion-list {
+  --background: #292727; /* Fondo gris oscuro */
+}
+
+/* Establece el color de todos los títulos de la página */
+ion-title {
+  color: royalblue;
+}
+
+/* Estilos para los elementos de la lista */
+ion-item {
+  --background: rgb(41, 40, 40);     /* Fondo gris oscuro */
+  --border-color: #7ce141;        /* Color del borde (verde) para separar los ítems */
+  --color: royalblue;             /* Color del texto del ítem */
+}
+
+/* Estilos específicos para el enlace dentro del ítem */
+ion-item a {
+  color: royalblue;
+  text-decoration: none; /* Opcional: quita el subrayado del enlace */
+  width: 100%;
+  --background: #000000; /* Fondo negro */
+}
