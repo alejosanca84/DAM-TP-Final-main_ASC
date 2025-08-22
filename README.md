@@ -23,7 +23,7 @@ La Activación del cliente web se realiza ingresando a la URL [http://localhost:
 
 El garantizar el acceso las web, implica el adecuado funcionamiento del aplicativo.
 
-#### Nota: en caso de presentarse error durante el primer ejecución del aplicativo, debe detenerse utilizando Ctrl+C y volverse a correr el comando "docker compose up" (el backend espera que la DB esté creada al iniciar), puede que no se cree en la primera ejecución.
+#### Nota: en caso de presentarse error durante el primer ejecución del aplicativo, debe detenerse utilizando Ctrl+C y volverse a correr el comando "docker compose up" (el backend espera que la DB esté creada al iniciar), ¡¡puede que no se cree en la primera ejecución!!
 
 ## Licencia
 Este proyecto está bajo Licencia ([MIT](https://choosealicense.com/licenses/mit/)).
